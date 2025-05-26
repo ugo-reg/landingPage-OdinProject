@@ -27,19 +27,25 @@
         padding:5px;
         margin:20px;
         font-size: 24px;
-      }
+        border:1px solid white;
+        color:white;
+        cursor: pointer;
+        box-shadow: 4px 2px 4px 2px rgba(255, 255, 255, 0.2);
+    }
   blockquote{
       font-size: 36px;
       font-style: italic;
       color: #1f2937;
       background-color: #E5E7EB;
       padding:30px;
+      border-radius: 10px;
     }
  .content{
      display: flex;
      justify-content: space-between;
      align-items: center;
      gap:10px;
+     border-radius: 10px;
     }
 .imageone{
     display:flex;
@@ -54,8 +60,8 @@ footer{font-size: 20px;
     color:whitesmoke;
     text-align: center;
     margin-top: 20px;
-    background-color: #1f2937;
-    padding:10px;
+    background-color:#3B82F6;
+    padding:10px;    
   }
 .header p{
     color: white;
@@ -82,6 +88,15 @@ ul.list{
 color:#E5E7EB;
 }
 figcaption{font-size: 18px;}
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+  padding:30px;}
+  .end{
+  width:60%;
+  margin: 0 auto;
+border-radius: 20px;}
     </style>
 </head>
 <body>
@@ -128,11 +143,16 @@ figcaption{font-size: 18px;}
             "IF YOUR DREAMS DO NOT SCARE YOU, THEY ARE NOT BIG ENOUGH"<br/>
             <div class="name"> - Ellen Johnson Sirleaf</div>
             </blockquote>
-        
-        <footer>
-            <p>Thank you for visiting my page!</p>
-            <button>Sign up</button>
-        </footer>
 
+        
+        <footer class="end">
+          <p>Thank you for visiting my page!</p>
+          <button>Sign up</button>
+        </footer>
+        <br/>
+<div class="footer">
+        <p>© 2023 My Landing Page. All rights reserved.</p>
+      
+</div>
 </body>
 </html>
